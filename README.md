@@ -1,5 +1,5 @@
 # OrgInfo
-Organização da informação
-João Henrique Schmidt
-Igor Santos
+Organização da informação\n
+João Henrique Schmidt\n
+Igor Santos\n
 Daniel Neves
