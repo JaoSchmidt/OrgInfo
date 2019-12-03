@@ -76,6 +76,7 @@ a:link{
 
 #principal{
     display: flex;
+    align-items: flex-start;
 }
 
 
