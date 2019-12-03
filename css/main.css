@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    margin-top: 5%;/* evitar contato com o nav */
+}
+
+nav{
+    background-color: #002434;
+    padding: 4px;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 1;
+}
+
+a{
+    color: white;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+nav li{
+    display: inline;
+    text-align: center;
+}
+
+.botao{
+    display:inline;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+    text-align:center;
+    margin-left:10%;
+    border-radius: 15%;
+}
+
+.botao:hover{
+    background-color: #d8b806;
+    transition-duration:0.5s;
+}
+
+a:hover{
+    color:black;
+    transition-duration:0.5s;
+}
+
+.conteudo{
+    margin-top:6%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#titulo h1{
+    font-size: 50px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+#title{
+    font-size: 50px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.botaoAnimacao{
+    background-color: #002434;
+    color: white;
+    border-radius: 15%;
+    text-align:center;
+    display:inline;
+    padding: 15px 32px;
+}
+
+.separate{
+    display: flex;
+}
+.chart-matrix{
+    position: relative;
+    width: 35%;
+}
+.chart-matrix2{
+    width: 55%;
+}
+#MatrizEnergetica{
+    margin-left: 0 auto;
+}
+#MatrizEnergeticaColunas{
+    margin-right: 0 auto;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <html lang="en">
+        <meta charset="utf-8"/>
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+        <style>
+        body {
+            font-family: 'Raleway';font-size: 22px;
+        }
+        </style>
+        <link rel="stylesheet" href="../css/Nuclear.css">
+        <title>Energia Nuclear</title>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    </head>
+    <body>
+        <nav>
+            <ul>
+            <div class="botao"><li><a href= "../index.html">Página inicial</a></li></div>
+            <div class="botao"><li><a href= "../energia_solar/index.html">Solar</a></li></div>
+            <div class="botao"><li><a href= "../energia_eolica/index.html">Eólica</a></li></div>
+            <div class="botao"><li><a href= "../energia_nuclear/index.html">Nuclear</a></li></div>
+            <div class="botao"><li><a href= "../energia_hidroeletrica/index.html">Hidroelétrica</a></li></div>
+            </ul>
+        </nav>
+
+        <div id="conteudo">
+            <div id="titulo">
+                <h1>
+                    Energia Nuclear
+                </h1>
+            </div>
+
+            <div id="principal">
+                <div id="imagens">
+                    <img src="../css/img/nuclear.jpg" id="img1" />
+                    <img src="../css/img/nuclear2.jpg" id="img2" />
+                </div>
+                        
+                <div id="texto">
+                    <p>
+                        Energia nuclear ou atômica é a energia produzida nas usinas termonucleares, que utilizam o urânio e outros elementos, como combustível. A energia elétrica gerada por uma fonte nuclear é obtida a partir do calor da reação do urânio. A queima do combustível produz calor que ferve a água de uma caldeira transformando-a em vapor. O vapor movimenta uma turbina que dá partida a um gerador elétrico que produz a eletricidade.
+                        É usada em mais de 400 centrais nucleares em todo o mundo, principalmente em países como a França, Japão, Estados Unidos, Alemanha, Suécia, Espanha, China, Rússia, Coréia do Sul, Paquistão e Índia, entre outros.
+                        
+                        Segundo a WNA (Associação Nuclear Mundial, da sigla em Inglês), hoje, 14% da energia elétrica no mundo, é gerada através de fonte nuclear e este percentual tende a crescer com a construção de novas usinas, principalmente nos países em desenvolvimento (China, Índia, etc.). Os Estados Unidos, que possuem o maior parque nuclear do planeta, com 104 usinas em operação, estão ampliando a capacidade de geração e aumentando a vida útil de várias de suas centrais. França, com 58 reatores, e Japão, com 50, também são grandes produtores de energia nuclear, seguidos por Rússia (33) e Coréia do Sul (21).
+                        
+                        A maior vantagem ambiental da geração elétrica através de usinas nucleares é a não utilização de combustíveis fósseis, evitando o lançamento na atmosfera dos gases responsáveis pelo aumento do aquecimento global e outros produtos tóxicos. Usinas nucleares ocupam áreas relativamente pequenas, podem ser instaladas próximas aos centros consumidores e não dependem de fatores climáticos para o seu funcionamento.
+                        
+                        Além disso, o urânio utilizado em usinas nucleares é um combustível de baixo custo, uma vez que as quantidades mundiais exploráveis são muito grandes e não oferecem risco de escassez em médio prazo. Pesquisas de opinião realizadas na Europa, nos Estados Unidos e na Ásia demonstram que a população aceita a construção de novas usinas nucleares e a substituição de plantas antigas por novas. Ambientalistas prestigiados como James Lovelock (autor da “Teoria de Gaia”) e Patrick Moore (fundador do Green Peace) são unânimes em declarar que não se pode abdicar da energia nuclear se pretendemos reduzir os riscos do aquecimento global e de todos os problemas relacionados a ele.
+                    </p>
+                </div>
+            </div>
+
+            <div id="VxD">
+
+                    <div id="vantagens">
+                        <h3>Vantagens:</h3>
+                        <ul>
+                            <li>Não libera gases estufa.</li>
+                            <li>Exigência de pequena área para construção da usina.</li>
+                            <li>Grande disponibilidade do combustível.</li>
+                            <li>Pequeno risco no transporte do combustível.</li>
+                            <li>Pequena quantidade de resíduos.</li>
+                            <li>Independência de fatores climáticos, como ventos ou chuvas.</li>
+                        </ul>
+                    </div>
+    
+                    
+    
+                    <div id="desvantagens">
+                        <h3>Desvantagens:</h3>
+                        <ul>
+                            <li>O lixo nuclear radioativo deve ser armazenado em locais seguros e isolados.</li>
+                            <li>Mais cara, quando comparada a outras formas.</li>
+                            <li>Risco de acidentes nucleares, que podem colocar em risco a vida de milhares de pessoas e afetar a de muitas outras.</li>
+                            <li>Problemas ambientais, devido ao aquecimento de ecossistemas aquáticos pela<br>água de resfriamento dos reatores.</li>
+                            <li>O uso da energia nuclear está intimamente ligado à tecnologia das bombas atômicas, portanto sua evolução levaria também à fabricação de armas mais poderosas</li>
+                        </ul>
+                    </div>
+            </div>
+
+
+            <div class="countries-chart">
+                <canvas id="EnergiaVersusUsinas"></canvas>
+                <script src="../js/EnergiaNuclear.js"></script>
+            </div>
+            <hr>
+            <div id="graficoPizza">
+                <div>
+                    <p>Também deve-se entrar em consideração a eficiência 
+                        de cada usina nuclear, o gráfico ao acima mostra o 
+                        fator de capacidade delas UCF, por país. Isso não 
+                        indica o país com a média de melhores usinas, mas 
+                        a média do quanto cada usina opera dentro de sua 
+                        capacidade máxima prevista.
+                    </p><p>Temos que o UCF é calculado como:</p><p>UCF(%) = (REG-PEL-UEL) &#8725 REG</p>
+                    <p>No qual:</p><p>REG = refêrencia de geração de energia no período</p>
+                    <p>PEL = Energia perdida porém programada</p><p>UEL = Energia perdida e imprevista</p>
+                </div>
+                <div class="eficiencia-chart">
+                        <canvas id="CoeficienteDeRendimento"></canvas>
+                        <script src="../js/CoeficienteDeRendimento.js"></script>
+                </div>
+            </div>
+            <button class="botaoAnimacao" onclick="buttonLeft()">-1</button>
+        <button class="botaoAnimacao" onclick="buttonRight()">+1</button>
+        <hr>
+        <a>Referências</a>
+        <a href="https://pris.iaea.org/PRIS/WorldStatistics/LifeTimeUnitCapabilityFactor.aspx">IAEA - Pris: Power Reactor Information System. Retrived 29/11/2019</a>
+        <a href="https://www-pub.iaea.org/MTCD/Publications/PDF/TRS428_web.pdf">IAEA Technical Report Series no.428. April 2005</a>
+        </div>
+    </body>
+</html>

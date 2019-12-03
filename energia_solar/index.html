@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'/>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <style>
+    body {
+        font-family: 'Raleway';font-size: 22px;
+    }
+    </style>
+    <link rel="stylesheet" href="../css/Solar.css">
+    <title>Energia solar</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <div class="botao"><li><a href= "../index.html">Página inicial</a></li></div>
+            <div class="botao"><li><a href= "../energia_solar/index.html">Solar</a></li></div>
+            <div class="botao"><li><a href= "../energia_eolica/index.html">Eólica</a></li></div>
+            <div class="botao"><li><a href= "../energia_nuclear/index.html">Nuclear</a></li></div>
+            <div class="botao"><li><a href= "../energia_hidroeletrica/index.html">Hidroelétrica</a></li></div>
+        </ul>
+    </nav>
+
+    <div id="conteudo">
+        <div id="titulo">
+            <h1>
+                Energia Solar
+            </h1>
+        </div>
+
+        <div id="principal">
+            <img src="../css/img/EnergiaSolar.jpeg" id="img"/>
+            <div id="texto">
+                <p>
+                    A energia solar ou mais especificamente a energia solar fotovoltaica é aquela que utiliza a irradiação solar como fonte de para gerar energia elétrica sem a necessidade de primeiro ser transformada em energia térmica. Dentre as vantagens da energia solar é ser uma fonte de energia renovável e inesgotável. Em contrapartida aos combustíveis fósseis o processo de geração de energia não libera poluentes como o dióxido de carbono (CO2), dióxido de enxofre (SO2) e óxidos de nitrogênio (NOx), Gases, esses, que agravam o aquecimento global e são prejudiciais à saúde humana. O sistema fotovoltaico não emite ruídos e possui uma vida útil alta estimada em cerca de 25 anos, além de necessidade de pouca manutenção para seu bom funcionamento ao longo da sua vida útil. Porém, o que impede a utilização mais ampla da energia solar são o alto valor de investimento necessário para se obter e instalar um sistema fotovoltaico, a média do valor para investimento para fins domiciliar é de R$30.000,00 com todos os custos inclusos e a necessidade de energia solar para gerar energia elétrica, ou seja, é muito mais vantajoso possuir um sistema desses em locais em que há grande incidência de luz solar ao longo do dia, localidades como o nordeste brasileiro, norte e sul da Africa, Austrália, parte da Ásia Central e parte da Índia, Oriente Médio, sudoeste dos USA, México, Chile e Peru possuem as maiores incidências de incidência solar por m². Portanto, a energia solar possui vários pontos positivos, mas ainda esbarra em um preço ainda elevado ainda que o preço venha se tronando cada vez mais acessível ao longo das décadas, sendo vantajoso apenas a médio e longo prazo.
+                </p>
+            </div>
+        </div>
+
+        <div id="VxD">
+            <div id="vantagens">
+                <h3>Vantagens:</h3>
+                <ul>
+                    <li>É inesgotável.</li>
+                    <li>Não polui durante seu uso.</li>
+                    <li>As centrais necessitam de manutenção mínima.</li>
+                    <li>Os painéis solares são a cada dia mais potentes ao mesmo tempo que seu custo vem decaindo. Isso torna cada vez mais a energia solar uma solução economicamente viável.</li>
+                    <li>A energia solar é excelente em lugares remotos ou de difícil acesso, pois sua instalação em pequena escala não obriga a enormes investimentos em linhas de transmissão.</li>
+                    <li>Em países tropicais, como o Brasil, a utilização da energia solar é viável em praticamente todo o território, e, em locais longe dos centros de produção energética sua utilização ajuda a diminuir a procura energética nestes e consequentemente a perda de energia que ocorreria na transmissão.</li>
+                </ul>
+            </div>
+
+            <div id="desvantagens">
+                <h3>Desvantagens:</h3>
+                <ul>
+                    <li>Existe variação nas quantidades produzidas de acordo com a situação climatérica, como chuva ou neve, além de que durante a noite não existe produção alguma, o que obriga a que existam meios de armazenamento da energia produzida durante o dia em locais onde os painéis solares não estejam ligados à rede de transmissão de energia.</li>
+                    <li>Locais em latitudes médias e altas sofrem quedas bruscas de produção durante os meses de inverno devido à menor disponibilidade diária de energia solar. Locais com frequente cobertura de nuvens, tendem a ter variações diárias de produção de acordo com o grau de nebulosidade.</li>
+                    <li>As formas de armazenamento da energia solar são pouco eficientes quando comparadas por exemplo aos combustíveis fósseis e a energia hidroelétrica</li>
+                    <li>Os painéis solares têm um rendimento de apenas 25%, apesar deste valor ter vindo a aumentar ao longo dos anos.</li>
+                    <li>Alto valor de investimento necessário para se obter e instalar um sistema fotovoltaico, a média do valor para investimento para fins domiciliar é de R$30.000,00 com todos os custos inclusos.</li>
+                </ul>
+            </div>
+        </div>
+        <h1>O problema do horário de irradiação Solar</h1>
+        <div class="canvas1">
+            <canvas id="DailyEnergy"></canvas>
+        </div>
+        <script src="../js/solar.js"></script>
+        <p>O gráfico acima mostra a energia gerada por fonte por hora do dia no estado da Cáliforna EUA.
+            Observe que a radiação começa às 6 horas e termina às 17 horas, logo antes do pico devido ao
+            aumento de energia nas residências das pessoas voltando para casa. Para suprir essa demanda nesse horário
+            específico é necessário o aumento da importação de energia e da energia gerada por gás natural. Para
+            poder suprir essa demanda apenas com celulas fotovoltaicas, seria necessário um enorme investimento
+            em baterias. De fato, se observarmos os dados fornecidos pelo Estado da Califórnia, na mesma referência,
+            veremos que ele possui um grande surplus de energia durante o horário de irradiação do verão, mas 
+            ainda precisa de outras étodos pela noite.
+        </p>
+    </div>
+    <hr>
+    <a>Referências</a>
+    <a href="http://www.caiso.com/TodaysOutlook/Pages/default.aspx">Californa ISO Today outlook</a>
+</body>
+</html>	

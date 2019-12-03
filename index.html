@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <style>
+    body {
+        font-family: 'Raleway';font-size: 22px;
+    }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Página Inicial</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <div class="botao"><li><a href= "index.html">Página inicial</a></li></div>
+            <div class="botao"><li><a href= "energia_solar/index.html">Solar</a></li></div>
+            <div class="botao"><li><a href= "energia_eolica/index.html">Eólica</a></li></div>
+            <div class="botao"><li><a href= "energia_nuclear/index.html">Nuclear</a></li></div>
+            <div class="botao"><li><a href= "energia_hidroeletrica/index.html">Hidroelétrica</a></li></div>
+        </ul>
+    </nav>
+
+    <div class="conteudo">
+        <div id="titulo">
+            <h1>
+                Energias Renováveis
+            </h1>
+            <p>Com o eventual esgotamento do petróleo, carvão mineral e gás natural (algumas das maiores fontes de energia mundial atualmente) 
+                e o aumento do aquecimento global e da poluição em geral devido principalmente ao uso de fontes de energia poluentes, a busca por fontes renováveis 
+                e limpas vem aumentando cada vez mais, o uso de energias renováveis também é importante pelo fator econômico, pois a utilização de recursos mais 
+                baratos para a produção de energia reduz o custo da produção, além disso a grande maioria usa dos recursos naturais, abundantes e reaproveitáveis, 
+                ao contrário dos combustíveis fósseis que são recursos finitos. Ainda que seja de grande importância para o contexto atual, o uso de energias renováveis 
+                ainda não possui ampla eficiência por seu relativo pouco uso e falta de políticas que estimulem a implementação dessas fontes novas nos países em desenvolvimento. 
+                Portanto, a adoção e estudos cada vez mais intensos dessas novas fontes de energia são cada vez mais necessárias de acordo com o passar do 
+                tempo e com o agravamento dos impactos ambientais que as fontes baseadas em combustíveis fósseis vêm causando ao planeta Terra. Com isso, 
+                a ONU incluiu como objetivo número 7 dos Objetivos de Desenvolvimento Sustentável (ODS) "Assegurar o acesso confiável, sustentável, moderno 
+                e a preço acessível à energia para todas e todos".</p>
+                <p>Como se pode ver no gráfico a seguir, as fontes mais utilizadas atualmente são combustíveis fósseis poluentes (carvão e gás natural). 
+                    Elas emitem gases poluentes (principalmente CO2), que contribuem para o aumento do efeito estufa e, consequentemente, do aquecimento global.</p>
+        </div>
+        <p id="title" style="text-align:center;" >Matriz energética no ano 2017 em Gwh</p>
+        <div class="separate">
+            <div class="chart-matrix">
+                <canvas id="MatrizEnergetica"></canvas>
+                
+            </div>
+            <div class="chart-matrix2">
+                <canvas id="MatrizEnergeticaColunas"></canvas>
+            </div>
+        </div>
+        <script src="js/PagInicial.js"></script>
+        <button class="botaoAnimacao" onclick="buttonLeft()">-1</button>
+        <button class="botaoAnimacao" onclick="buttonRight()">+1</button>
+    </div>
+    <div class="conteudo">
+        <p>Esse site reúne 4 das matrizes energéticas mais promissoras para substituírem os combustíveis fósseis e as energias não limpas: nuclear, eólica, solar e hidrelétrica.</p>
+    </div>
+    
+</body>
+</html>

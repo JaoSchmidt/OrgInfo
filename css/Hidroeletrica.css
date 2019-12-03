@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: #002434;
+    padding: 4px;
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+
+a{
+    color: white;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+nav li{
+    display: inline;
+}
+
+.botao{
+    display:inline;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+    text-align:center;
+    margin-left:10%;
+    border-radius: 15%;
+}
+
+
+#conteudo{
+    margin-top:6%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#titulo h1{
+    font-size: 50px;
+    color: #3a68e7;
+    font-weight: bold;
+    text-align: center;
+}
+
+#imagens{
+    width: 565.5px;
+}
+
+#img1{
+    height: 42%;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+#img2{
+    height: 42%;
+    width: 100%;
+}
+
+#principal{
+    display: flex;
+}
+
+#texto{
+    width: 70%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#texto p{
+    text-align: justify;
+    margin-top:0;
+}
+
+#VxD{
+    display: flex;
+    font-size: 18px;
+}
+
+#vantagens{
+    background-color: #4ace60;
+    border-radius: 10px;
+    padding: 12px;
+    padding-right:32%;
+}
+
+#desvantagens{
+    background-color: #da4646;
+    border-radius: 10px;
+    padding: 12px;
+    padding-right:200px;
+    margin-left:6px;     
+}
+
+#vantagens ul{
+    width: 260%;
+}
+
+#desvantagens ul{
+    width: 130%;
+}
+
+.botao:hover{
+    background-color: #d8b806;
+    transition-duration:0.5s;
+}
+
+a:hover{
+    color:black;
+    transition-duration:0.5s;
+}
