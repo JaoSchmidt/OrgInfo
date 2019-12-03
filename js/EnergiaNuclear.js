@@ -38,7 +38,7 @@ request.onload = function(){
             Coeficiente.push(obj[key][1]/(obj[key][0]*1000));
         }
     }
-    //executarGrafico();
+    executarGrafico();
 }
 
 function executarGrafico(){
