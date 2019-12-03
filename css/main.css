@@ -1,14 +1,14 @@
 body{
     margin: 0;
-    margin-top: 5%;/* evitar contato com o nav */
 }
 
 nav{
     background-color: #002434;
-    padding: 4px;
-    position: fixed;
+    padding: 0.5%;
     top:0;
     width: 100%;
+    position: fixed;
+    min-width: 1350px;
     z-index: 1;
 }
 
@@ -27,12 +27,11 @@ nav li{
 
 .botao{
     display:inline;
-    padding-top:10px;
-    padding-bottom:10px;
-    padding-left:10px;
-    padding-right:10px;
-    text-align:center;
-    margin-left:10%;
+    padding-top:1%;
+    padding-bottom:1%;
+    padding-left:1%;
+    padding-right:1%;
+    margin-left:8%;
     border-radius: 15%;
 }
 
@@ -46,23 +45,22 @@ a:hover{
     transition-duration:0.5s;
 }
 
-.conteudo{
-    margin-top:6%;
-    margin-left: 3%;
-    margin-right: 3%;
+#conteudo{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 6rem;
+    min-width: 1350px;
 }
 
 #titulo h1{
-    font-size: 50px;
+    font-size: 200%;
     color: #000000;
     font-weight: bold;
     text-align: center;
 }
-#title{
-    font-size: 50px;
-    color: #000000;
-    font-weight: bold;
-    text-align: center;
+
+#texto{
+    text-align: justify;
 }
 
 .botaoAnimacao{

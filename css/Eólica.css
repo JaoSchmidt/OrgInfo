@@ -1,11 +1,4 @@
-html{
-    height: 100%;
-    width:100%;
-}
-
 body{
-    min-height: 100%;
-    width: 100%;
     margin: 0;
 }
 
@@ -16,10 +9,9 @@ nav{
     left:0;
     width: 100%;
     position: fixed;
-    min-width: 1425px;
-    z-index: 1;
+    min-width: 1350px;
+    margin: 0;
 }
-
 
 a{
     color: white;
@@ -29,8 +21,15 @@ a:link{
     text-decoration: none;
 }
 
+
+
 nav li{
     display: inline;
+}
+
+@media screen and (max-width: 1000px) {
+    #nav ul{display: none;}
+    
 }
 
 .botao{
@@ -53,7 +52,6 @@ a:hover{
     transition-duration:0.5s;
 }
 
-
 #conteudo{
     margin-left: 1vw;
     margin-right: 1vw;
@@ -63,22 +61,22 @@ a:hover{
 
 #titulo h1{
     font-size: 200%;
-    color: #74c920ea;
+    color: #9ad9e2;
     font-weight: bold;
     text-align: center;
 }
 
 #imagens{
-    width: 40%;
+    width: 50%;
 }
 
 #img1{
-   
+    height:42%;
     width: 100%;
 }
 
 #img2{
-    
+    height:42%;
     width: 100%;
 }
 
@@ -95,8 +93,8 @@ a:hover{
 
 #texto p{
     text-align: justify;
-    font-size: 80%;
     margin-top:0;
+    font-size: 86%;
 }
 
 #VxD{
@@ -110,39 +108,13 @@ a:hover{
     background-color: #4ace60;
     border-radius: 10px;
     padding: 1%;
-    padding-right:32%;
+    padding-right:5%;
 }
 
 #desvantagens{
     background-color: #da4646;
     border-radius: 10px;
     padding: 1%;
-    padding-right:15%;
+    padding-right:3%;
     margin-left:0.5%;     
-}
-
-canvas{
-    border-color: royalblue;
-}
-
-.countries-chart {
-    position: relative;
-    margin: auto;
-    height: 60vh;
-    width: 80vw;
-}
-.eficiencia-chart{
-    position: relative;
-    margin: auto;
-    height: 80vh;
-    width: 80vw;
-}
-
-.botaoAnimacao{
-    background-color: #002434;
-    color: white;
-    border-radius: 15%;
-    text-align:center;
-    display:inline;
-    padding: 15px 32px;
 }

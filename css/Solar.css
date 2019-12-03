@@ -4,59 +4,73 @@
 
 nav{
     background-color: #002434;
-    padding: 4px;
-    position: fixed;
+    padding: 0.5%;
     top:0;
     width: 100%;
+    margin: 0;
+    position: fixed;
+    min-width: 1350px;
+}
+
+
+nav li{
+    display: inline;
 }
 
 a{
     color: white;
+    text-align: center;
 }
 
 a:link{
     text-decoration: none;
 }
 
-nav li{
-    display: inline;
-}
+@media screen and (max-width: 1000px) {
+    #nav ul{display: none;}
+  }
 
 .botao{
     display:inline;
-    padding-top:10px;
-    padding-bottom:10px;
-    padding-left:10px;
-    padding-right:10px;
-    text-align:center;
-    margin-left:10%;
+    padding-top:1%;
+    padding-bottom:1%;
+    padding-left:1%;
+    padding-right:1%;
+    margin-left:8%;
     border-radius: 15%;
-    
 }
 
 
 #conteudo{
-    margin-top:6%;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 6rem;
+    min-width: 1350px;
 }
 
 #titulo h1{
-    font-size: 50px;
+    font-size: 200%;
     color: #d8b806;
     font-weight: bold;
     text-align: center;
 }
 
+
+
+#img{
+    width: 36%;
+}
+
 #texto{
     width: 67%;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 #texto p{
     margin: 0;            
-    text-align: justify;                      
+    text-align: justify;     
+    font-size: 76%;                 
 }
 
 #principal{
@@ -76,7 +90,7 @@ a:hover{
 
 #VxD{
     display: flex;
-    font-size: 20px;
+    font-size: 75%;
     margin-bottom: 2%;
     margin-top: 2%;
 }
