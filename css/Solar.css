@@ -58,7 +58,8 @@ a:link{
 
 
 #img{
-    width: 36%;
+    max-width: 100%;
+    height: auto;
 }
 
 #texto{
