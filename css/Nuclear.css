@@ -128,8 +128,8 @@ canvas{
 .countries-chart {
     position: relative;
     margin: auto;
-    height: 60vh;
-    width: 80vw;
+    height: auto;
+    width: 100vw;
 }
 .eficiencia-chart{
     position: relative;
