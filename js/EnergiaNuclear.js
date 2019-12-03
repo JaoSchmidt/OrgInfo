@@ -9,15 +9,15 @@ let options = {
             scaleLabel: {
                 display: true,
                 labelString: 'GW & Número de Reatores'
-                }
-            }]
-        },{
-    tooltips:{
-                mode:'nearest',
-                axis:'x',
-                intersect:false
             }
-        }
+        }]
+    },
+    tooltips:{
+        mode:'nearest',
+        axis:'x',
+        intersect:false
+    }
+        
 };
 
 
