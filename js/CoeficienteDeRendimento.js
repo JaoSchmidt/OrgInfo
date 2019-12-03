@@ -27,6 +27,11 @@ let options2={
         mode:'nearest',
         axis:'x',
         intersect:false
+    },
+    elements:{
+        line:{
+            tension:0
+        }
     }
 };
 
