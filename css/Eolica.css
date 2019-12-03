@@ -83,6 +83,7 @@ a:hover{
 #principal{
     display: flex;
     margin-bottom: 2%;
+    align-items: flex-start;
 }
 
 #texto{
