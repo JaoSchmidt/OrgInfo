@@ -45,7 +45,7 @@ a:hover{
     transition-duration:0.5s;
 }
 
-#conteudo{
+.conteudo{
     margin-left: 1vw;
     margin-right: 1vw;
     margin-top: 6rem;
