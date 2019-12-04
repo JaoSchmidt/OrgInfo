@@ -1,7 +1,8 @@
 'use strict'
 let context = document.getElementById("EnergiaVersusUsinas").getContext('2d');
 let options = {
-    maintainAspectRatio: false,
+    maintainAspectRatio: true,
+    aspectRatio:2,
     responsive:true,
     scales:{
         yAxes:[{
