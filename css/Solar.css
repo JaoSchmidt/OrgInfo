@@ -17,12 +17,12 @@ nav li{
     display: inline;
 }
 
-a{
+.linkButton{
     color: white;
     text-align: center;
 }
 
-a:link{
+.linkButton:link{
     text-decoration: none;
 }
 
@@ -110,4 +110,8 @@ a:hover{
     padding: 1%;
     padding-right:3%;
     margin-left:0.5%;     
+}
+#referencias{
+    position: relative;
+    padding: 1%;
 }
