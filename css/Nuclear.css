@@ -146,3 +146,8 @@ canvas{
     display:inline;
     padding: 15px 32px;
 }
+#referencias{
+    position: relative;
+    padding: 1%;
+    text-decoration: none;
+}
