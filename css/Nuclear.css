@@ -21,11 +21,11 @@ nav{
 }
 
 
-a{
+.linkButton{
     color: white;
 }
 
-a:link{
+.linkButton:link{
     text-decoration: none;
 }
 
@@ -48,7 +48,7 @@ nav li{
     transition-duration:0.5s;
 }
 
-a:hover{
+.linkButton:hover{
     color:black;
     transition-duration:0.5s;
 }
