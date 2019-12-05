@@ -12,11 +12,11 @@ nav{
     z-index: 1;
 }
 
-a{
+.linkButton{
     color: white;
 }
 
-a:link{
+.linkButton:link{
     text-decoration: none;
 }
 
@@ -40,7 +40,7 @@ nav li{
     transition-duration:0.5s;
 }
 
-a:hover{
+.linkButton:hover{
     color:black;
     transition-duration:0.5s;
 }
@@ -87,4 +87,8 @@ a:hover{
 }
 #MatrizEnergeticaColunas{
     margin-right: 0 auto;
+}
+#referencias{
+    padding: 1%;
+    position: relative;
 }
